@@ -1,0 +1,6 @@
+#!/bin/bash
+echo "Generating a File"
+today=`date +%Y-%m-%d.%H`
+filename="$1-$today.js"
+echo creating $filename
+touch ./2018/$filename
